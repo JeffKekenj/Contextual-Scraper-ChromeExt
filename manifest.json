@@ -1,0 +1,14 @@
+{
+ "name" : "ContextualScraper",
+ "version" : "0.0.0.1",
+ "description" : "Collect ALL THE LINKS! from the current page",
+ "background" : { "scripts": ["background.js"] },
+ "permissions" : [
+ "contextMenus",
+ "tabs",
+ "http://*/*",
+ "https://*/*"
+ ],
+ "minimum_chrome_version" : "6.0.0.0",
+ "manifest_version": 2
+}
